@@ -45,7 +45,7 @@
 			    background-image: url(../img/nav.png);
 			    background-position: -10px 4px;
 			    cursor: pointer;
-			    z-index: 100;
+			    z-index: 77;
 			}
 			
 			.btnright {
@@ -58,7 +58,7 @@
 			    background-image: url(../img/nav.png);
 			    background-position: -54px 4px;
 			    cursor: pointer;
-			    z-index: 100;
+			    z-index: 77;
 			}
 			/*控制按钮开始*/
 			
