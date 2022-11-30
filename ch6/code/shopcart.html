@@ -86,14 +86,14 @@
                         <img src="../img/index08_05.jpg">
                         从你的全世界路过
                     </td>
-                    <td>41.00</td>
+                    <td class="price">41.00</td>
                     <td>
-                        <button>&emsp;+&emsp;</button>
-                        <input type="text">
-                        <button>&emsp;-&emsp;</button>
+                        <button class="add">&nbsp;+&nbsp;</button>
+                        <input type="text" value="1">
+                        <button class="reduce">&nbsp;-&nbsp;</button>
                     </td>
-                    <td>41.00</td>
-                    <td>删除</td>
+                    <td class="subprice">41.00</td>
+                    <td class="del">删除</td>
                 </tr>
                 <tr>
                     <td><input type="checkbox"></td>
@@ -101,18 +101,25 @@
                         <img src="../img/index08_05.jpg">
                         从你的全世界路过
                     </td>
-                    <td>41.00</td>
+                    <td class="price">11.00</td>
                     <td>
-                        <button>+</button>
-                        <input type="text">
-                        <button>-</button>
+                        <button class="add">&nbsp;+&nbsp;</button>
+                        <input type="text" value="1">
+                        <button class="reduce">&nbsp;-&nbsp;</button>
                     </td>
-                    <td>41.00</td>
-                    <td>删除</td>
+                    <td class="subprice">11.00</td>
+                    <td class="del">删除</td>
                 </tr>
             </tbody>
         </table>
-        <div class="totalPrice"></div>
+        <div class="totalPrice">
+            <input type="checkbox">全选 
+            <span>删除选中商品</span> 
+            <span>已选择 1 件商品</span> 
+            <span class="total">总价:41.00 </span>
+            <button>去结算</button>
+
+        </div>
     </div>
 
     <!-- 11.尾部 -->
