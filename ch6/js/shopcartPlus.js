@@ -83,8 +83,8 @@ $(function(){
         count=count<1?1:count;      //边界判断：如果小于1，那么等于1 否则等于自己
         $(this).prev().val(count)  //把减少后的值 重新赋值给前面的输入框
          //调用小计
-         subTotal($(this),count);
-         allTotal();//总计
+        subTotal($(this),count);
+        allTotal();//总计
     })
     /**
      * 封装一个小计函数：（点击+或-的时候 需要调用小计功能）
